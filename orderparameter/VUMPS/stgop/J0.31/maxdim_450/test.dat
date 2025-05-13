@@ -1,0 +1,4 @@
+# fit f(x) 'stgop_bandA_systemsize_defR_L_largest.dat' u (1.0/($1)):2 via a,b
+# final sum of squares of residuals : 1.55511e-08
+a               = 4.15864237114829e-05  
+b               = 0.0636482751499606    

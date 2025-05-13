@@ -1,0 +1,110 @@
+
+
+*******************************************************************************
+Mon Nov 25 19:04:30 2024
+
+
+FIT:    data read from 'stgop_bandA_systemsize_defR_L_largest.dat' u (1.0/($1)):2
+        format = x:z
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.5461735925e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   7 4.8367244988e-16  -8.32e-06  7.07e-05    4.158642e-05   6.364828e-02
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 4.83672e-16
+rel. change during last iteration : -8.32441e-11
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.55511e-08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.41836e-16
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 4.15864e-05      +/- 2.673e-06    (6.427%)
+b               = 0.0636483        +/- 1.594e-08    (2.505e-05%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.873  1.000 
+
+
+*******************************************************************************
+Mon Nov 25 19:06:39 2024
+
+
+FIT:    data read from 'stgop_bandA_systemsize_defR_L_largest.dat' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0120000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.8367244988e-16   0.00e+00  4.50e-02    4.158642e-05   6.364828e-02
+   1 4.8367244988e-16   0.00e+00  4.50e-03    4.158642e-05   6.364828e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.83672e-16
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.55511e-08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.41836e-16
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 4.15864e-05      +/- 2.673e-06    (6.427%)
+b               = 0.0636483        +/- 1.594e-08    (2.505e-05%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.873  1.000 
+
+
+*******************************************************************************
+Mon Nov 25 19:08:57 2024
+
+
+FIT:    data read from 'stgop_bandA_systemsize_defR_L_largest.dat' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0120000]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.8367244988e-16   0.00e+00  4.50e-02    4.158642e-05   6.364828e-02
+   1 4.8367244988e-16   0.00e+00  4.50e-03    4.158642e-05   6.364828e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.83672e-16
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.55511e-08
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.41836e-16
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 4.15864e-05      +/- 2.673e-06    (6.427%)
+b               = 0.0636483        +/- 1.594e-08    (2.505e-05%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.873  1.000 

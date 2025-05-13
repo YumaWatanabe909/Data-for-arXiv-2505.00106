@@ -1,0 +1,30 @@
+#!/usr/bin/gnuplot -persist
+#
+#    
+#    	G N U P L O T
+#    	Version 5.4 patchlevel 2    last modified 2021-06-01 
+#    
+#    	Copyright (C) 1986-1993, 1998, 2004, 2007-2021
+#    	Thomas Williams, Colin Kelley and many others
+#    
+#    	gnuplot home:     http://www.gnuplot.info
+#    	faq, bugs, etc:   type "help FAQ"
+#    	immediate help:   type "help"  (plot window: hit 'h')
+GNUTERM = "qt"
+I = {0.0, 1.0}
+VoxelDistance = 0.0
+a = 2.04268571356267e-05
+b = -521.060909658154
+FIT_CONVERGED = 1
+FIT_NDF = 2
+FIT_STDFIT = 0.000508613455416922
+FIT_WSSR = 5.17375294062282e-07
+FIT_P = 0.999999741312386
+FIT_NITER = 6
+a_err = 1.14506934259119e-05
+b_err = 56.0597175934076
+c = 0.525204454237484
+d = -0.00170314782481532
+c_err = 0.0874141585345618
+d_err = 0.000521491783456124
+#    EOF

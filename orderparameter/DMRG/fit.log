@@ -1,0 +1,74 @@
+
+
+*******************************************************************************
+Mon May 12 19:24:12 2025
+
+
+FIT:    data read from 'phases/SF_J0.46/StringOrderParameter.txt' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0160000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_sf(x)
+	f_sf(x)  = a_sf * x + b_sf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_sf          b_sf         
+   0 3.0033143846e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 5.6434418845e-07  -8.46e-09  7.07e-07    8.604284e-01   7.202170e-04
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.64344e-07
+rel. change during last iteration : -8.46141e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000751228
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.64344e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_sf            = 0.860428         +/- 0.08902      (10.35%)
+b_sf            = 0.000720217      +/- 0.0009201    (127.7%)
+
+correlation matrix of the fit parameters:
+                a_sf   b_sf   
+a_sf            1.000 
+b_sf           -0.882  1.000 
+
+
+*******************************************************************************
+Mon May 12 19:24:12 2025
+
+
+FIT:    data read from 'phases/HSF_J0.38/StringOrderParameter.dat' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0160000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hsf(x)
+	f_hsf(x) = a_hsf * x + b_hsf
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hsf         b_hsf        
+   0 2.9258988254e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 1.2184950971e-08  -2.94e-07  7.07e-07    1.103651e+00   1.148281e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.2185e-08
+rel. change during last iteration : -2.94256e-12
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000110385
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.2185e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hsf           = 1.10365          +/- 0.01308      (1.185%)
+b_hsf           = 0.0114828        +/- 0.0001352    (1.177%)
+
+correlation matrix of the fit parameters:
+                a_hsf  b_hsf  
+a_hsf           1.000 
+b_hsf          -0.882  1.000 
