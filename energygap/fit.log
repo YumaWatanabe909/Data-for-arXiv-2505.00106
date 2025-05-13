@@ -1,0 +1,882 @@
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/hi_obc.txt' u (1.0/($1)):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hi_obc_En(x)
+	f_hi_obc_En(x)  = a_hi_obc_En * x + b_hi_obc_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hi_obc_En   b_hi_obc_En  
+   0 2.8323258394e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 1.4077884615e-08  -2.02e-06  7.07e-07    2.616028e+00   3.725577e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.40779e-08
+rel. change during last iteration : -2.02457e-11
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00011865
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.40779e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hi_obc_En     = 2.61603          +/- 0.009673     (0.3698%)
+b_hi_obc_En     = 0.00372558       +/- 0.0001629    (4.372%)
+
+correlation matrix of the fit parameters:
+                a_hi_o b_hi_o 
+a_hi_obc_En     1.000 
+b_hi_obc_En    -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/hsf_obc.txt' u (1.0/($1)):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hsf_obc_En(x)
+	f_hsf_obc_En(x) = a_hsf_obc_En * x + b_hsf_obc_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hsf_obc_En  b_hsf_obc_En 
+   0 2.7501262927e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 2.8560096154e-07  -1.99e-07  7.07e-07    3.297517e+00   7.588269e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.85601e-07
+rel. change during last iteration : -1.99449e-12
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000534416
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.85601e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hsf_obc_En    = 3.29752          +/- 0.04357      (1.321%)
+b_hsf_obc_En    = 0.00758827       +/- 0.0007337    (9.668%)
+
+correlation matrix of the fit parameters:
+                a_hsf_ b_hsf_ 
+a_hsf_obc_En    1.000 
+b_hsf_obc_En   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/sf_obc.txt' u (1.0/($1)):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_sf_obc_En(x)
+	f_sf_obc_En(x)  = a_sf_obc_En * x + b_sf_obc_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_sf_obc_En   b_sf_obc_En  
+   0 2.6667660681e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 1.0268418846e-06  -8.89e-08  7.07e-07    3.918988e+00   1.280458e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.02684e-06
+rel. change during last iteration : -8.89439e-13
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02684e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_sf_obc_En     = 3.91899          +/- 0.08261      (2.108%)
+b_sf_obc_En     = 0.0128046        +/- 0.001391     (10.86%)
+
+correlation matrix of the fit parameters:
+                a_sf_o b_sf_o 
+a_sf_obc_En     1.000 
+b_sf_obc_En    -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/hi_bias.txt' u (1.0/($1)):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hi_bias_En(x)
+	f_hi_bias_En(x)  = a_hi_bias_En * x + b_hi_bias_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hi_bias_En  b_hi_bias_En 
+   0 2.6173233367e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 1.1826008654e-05  -5.84e-09  7.07e-07    3.473991e+00   2.832381e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.1826e-05
+rel. change during last iteration : -5.84457e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0034389
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.1826e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hi_bias_En    = 3.47399          +/- 0.2804       (8.07%)
+b_hi_bias_En    = 0.0283238        +/- 0.004721     (16.67%)
+
+correlation matrix of the fit parameters:
+                a_hi_b b_hi_b 
+a_hi_bias_En    1.000 
+b_hi_bias_En   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/hsf_bias.txt' u (1.0/($1)):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hsf_bias_En(x)
+	f_hsf_bias_En(x) = a_hsf_bias_En * x + b_hsf_bias_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hsf_bias_En b_hsf_bias_En
+   0 2.6680705901e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 1.9274346000e-05  -3.59e-09  7.07e-07    3.483360e+00   1.917000e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.92743e-05
+rel. change during last iteration : -3.586e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00439026
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.92743e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hsf_bias_En   = 3.48336          +/- 0.3579       (10.27%)
+b_hsf_bias_En   = 0.01917          +/- 0.006027     (31.44%)
+
+correlation matrix of the fit parameters:
+                a_hsf_ b_hsf_ 
+a_hsf_bias_En   1.000 
+b_hsf_bias_En  -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/sf_bias.txt' u (1.0/($1)):2
+        format = x:z
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_sf_bias_En(x)
+	f_sf_bias_En(x)  = a_sf_bias_En * x + b_sf_bias_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_sf_bias_En  b_sf_bias_En 
+   0 2.6387785704e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 2.3630591115e-05  -4.13e-09  7.07e-07    4.102902e+00   1.499012e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.36306e-05
+rel. change during last iteration : -4.12932e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00486113
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.36306e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_sf_bias_En    = 4.1029           +/- 0.3963       (9.659%)
+b_sf_bias_En    = 0.0149901        +/- 0.006673     (44.52%)
+
+correlation matrix of the fit parameters:
+                a_sf_b b_sf_b 
+a_sf_bias_En    1.000 
+b_sf_bias_En   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/hi_obc.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hi_obc_Ec(x)
+	f_hi_obc_Ec(x)  = a_hi_obc_Ec * x + b_hi_obc_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hi_obc_Ec   b_hi_obc_Ec  
+   0 2.9160033583e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 5.5538461538e-09  -2.53e-06  7.07e-07    2.128486e+00  -3.109538e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.55385e-09
+rel. change during last iteration : -2.52628e-11
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.45241e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.55385e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hi_obc_Ec     = 2.12849          +/- 0.006076     (0.2854%)
+b_hi_obc_Ec     = -0.00310954      +/- 0.0001023    (3.29%)
+
+correlation matrix of the fit parameters:
+                a_hi_o b_hi_o 
+a_hi_obc_Ec     1.000 
+b_hi_obc_Ec    -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/hsf_obc.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hsf_obc_Ec(x)
+	f_hsf_obc_Ec(x) = a_hsf_obc_Ec * x + b_hsf_obc_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hsf_obc_Ec  b_hsf_obc_Ec 
+   0 2.8856546326e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 5.2290615385e-08  -2.80e-07  7.07e-07    2.156142e+00   1.613615e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 5.22906e-08
+rel. change during last iteration : -2.80311e-12
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000228671
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.22906e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hsf_obc_Ec    = 2.15614          +/- 0.01864      (0.8646%)
+b_hsf_obc_Ec    = 0.00161362       +/- 0.0003139    (19.45%)
+
+correlation matrix of the fit parameters:
+                a_hsf_ b_hsf_ 
+a_hsf_obc_Ec    1.000 
+b_hsf_obc_Ec   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/sf_obc.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_sf_obc_Ec(x)
+	f_sf_obc_Ec(x)  = a_sf_obc_Ec * x + b_sf_obc_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_sf_obc_Ec   b_sf_obc_Ec  
+   0 2.8760018244e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 2.5680984615e-07  -6.38e-08  7.07e-07    2.224486e+00   2.215462e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.5681e-07
+rel. change during last iteration : -6.38013e-13
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000506764
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.5681e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_sf_obc_Ec     = 2.22449          +/- 0.04131      (1.857%)
+b_sf_obc_Ec     = 0.00221546       +/- 0.0006957    (31.4%)
+
+correlation matrix of the fit parameters:
+                a_sf_o b_sf_o 
+a_sf_obc_Ec     1.000 
+b_sf_obc_Ec    -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/hi_bias.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hi_bias_Ec(x)
+	f_hi_bias_Ec(x)  = a_hi_bias_Ec * x + b_hi_bias_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hi_bias_Ec  b_hi_bias_Ec 
+   0 2.7494488903e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 4.3044323462e-06  -4.84e-09  7.07e-07    2.417566e+00   2.106496e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.30443e-06
+rel. change during last iteration : -4.84083e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00207471
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.30443e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hi_bias_Ec    = 2.41757          +/- 0.1691       (6.996%)
+b_hi_bias_Ec    = 0.021065         +/- 0.002848     (13.52%)
+
+correlation matrix of the fit parameters:
+                a_hi_b b_hi_b 
+a_hi_bias_Ec    1.000 
+b_hi_bias_Ec   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/hsf_bias.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hsf_bias_Ec(x)
+	f_hsf_bias_Ec(x) = a_hsf_bias_Ec * x + b_hsf_bias_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hsf_bias_Ec b_hsf_bias_Ec
+   0 2.8474416847e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 3.7642865000e-06  -5.29e-09  7.07e-07    2.367240e+00   4.918500e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.76429e-06
+rel. change during last iteration : -5.28793e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00194018
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.76429e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hsf_bias_Ec   = 2.36724          +/- 0.1582       (6.682%)
+b_hsf_bias_Ec   = 0.0049185        +/- 0.002663     (54.15%)
+
+correlation matrix of the fit parameters:
+                a_hsf_ b_hsf_ 
+a_hsf_bias_Ec   1.000 
+b_hsf_bias_Ec  -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:01:03 2025
+
+
+FIT:    data read from 'data/sf_bias.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_sf_bias_Ec(x)
+	f_sf_bias_Ec(x)  = a_sf_bias_Ec * x + b_sf_bias_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_sf_bias_Ec  b_sf_bias_Ec 
+   0 2.8754260415e+00   0.00e+00  7.07e-01    1.000000e+00   1.000000e+00
+   6 6.7830153846e-08  -3.75e-07  7.07e-07    2.527311e+00  -2.291692e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.78302e-08
+rel. change during last iteration : -3.75036e-12
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000260442
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.78302e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_sf_bias_Ec    = 2.52731          +/- 0.02123      (0.8401%)
+b_sf_bias_Ec    = -0.00229169      +/- 0.0003575    (15.6%)
+
+correlation matrix of the fit parameters:
+                a_sf_b b_sf_b 
+a_sf_bias_Ec    1.000 
+b_sf_bias_Ec   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/hi_obc.txt' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hi_obc_En(x)
+	f_hi_obc_En(x)  = a_hi_obc_En * x + b_hi_obc_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hi_obc_En   b_hi_obc_En  
+   0 1.4077884615e-08   0.00e+00  3.13e-02    2.616028e+00   3.725577e-03
+   1 1.4077884615e-08   0.00e+00  3.13e-02    2.616028e+00   3.725577e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.40779e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00011865
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.40779e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hi_obc_En     = 2.61603          +/- 0.009673     (0.3698%)
+b_hi_obc_En     = 0.00372558       +/- 0.0001629    (4.372%)
+
+correlation matrix of the fit parameters:
+                a_hi_o b_hi_o 
+a_hi_obc_En     1.000 
+b_hi_obc_En    -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/hsf_obc.txt' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hsf_obc_En(x)
+	f_hsf_obc_En(x) = a_hsf_obc_En * x + b_hsf_obc_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hsf_obc_En  b_hsf_obc_En 
+   0 2.8560096154e-07   0.00e+00  3.96e-02    3.297517e+00   7.588269e-03
+   1 2.8560096154e-07  -1.52e-09  3.96e-03    3.297517e+00   7.588269e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.85601e-07
+rel. change during last iteration : -1.51997e-14
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000534416
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.85601e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hsf_obc_En    = 3.29752          +/- 0.04357      (1.321%)
+b_hsf_obc_En    = 0.00758827       +/- 0.0007337    (9.668%)
+
+correlation matrix of the fit parameters:
+                a_hsf_ b_hsf_ 
+a_hsf_obc_En    1.000 
+b_hsf_obc_En   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/sf_obc.txt' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_sf_obc_En(x)
+	f_sf_obc_En(x)  = a_sf_obc_En * x + b_sf_obc_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_sf_obc_En   b_sf_obc_En  
+   0 1.0268418846e-06   0.00e+00  4.75e-02    3.918988e+00   1.280458e-02
+   1 1.0268418846e-06  -5.36e-10  4.75e-03    3.918988e+00   1.280458e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.02684e-06
+rel. change during last iteration : -5.36179e-15
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00101333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.02684e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_sf_obc_En     = 3.91899          +/- 0.08261      (2.108%)
+b_sf_obc_En     = 0.0128046        +/- 0.001391     (10.86%)
+
+correlation matrix of the fit parameters:
+                a_sf_o b_sf_o 
+a_sf_obc_En     1.000 
+b_sf_obc_En    -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/hi_bias.txt' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hi_bias_En(x)
+	f_hi_bias_En(x)  = a_hi_bias_En * x + b_hi_bias_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hi_bias_En  b_hi_bias_En 
+   0 1.1826008654e-05   0.00e+00  4.60e-02    3.473991e+00   2.832381e-02
+   1 1.1826008654e-05   0.00e+00  4.60e-01    3.473991e+00   2.832381e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.1826e-05
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0034389
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.1826e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hi_bias_En    = 3.47399          +/- 0.2804       (8.07%)
+b_hi_bias_En    = 0.0283238        +/- 0.004721     (16.67%)
+
+correlation matrix of the fit parameters:
+                a_hi_b b_hi_b 
+a_hi_bias_En    1.000 
+b_hi_bias_En   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/hsf_bias.txt' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hsf_bias_En(x)
+	f_hsf_bias_En(x) = a_hsf_bias_En * x + b_hsf_bias_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hsf_bias_En b_hsf_bias_En
+   0 1.9274346000e-05   0.00e+00  4.36e-02    3.483360e+00   1.917000e-02
+   1 1.9274346000e-05   0.00e+00  4.36e-01    3.483360e+00   1.917000e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.92743e-05
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00439026
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.92743e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hsf_bias_En   = 3.48336          +/- 0.3579       (10.27%)
+b_hsf_bias_En   = 0.01917          +/- 0.006027     (31.44%)
+
+correlation matrix of the fit parameters:
+                a_hsf_ b_hsf_ 
+a_hsf_bias_En   1.000 
+b_hsf_bias_En  -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/sf_bias.txt' u (1.0/($1)):2
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_sf_bias_En(x)
+	f_sf_bias_En(x)  = a_sf_bias_En * x + b_sf_bias_En
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_sf_bias_En  b_sf_bias_En 
+   0 2.3630591115e-05   0.00e+00  5.00e-02    4.102902e+00   1.499012e-02
+   1 2.3630591115e-05  -3.30e-10  5.00e-03    4.102902e+00   1.499012e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.36306e-05
+rel. change during last iteration : -3.29772e-15
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00486113
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.36306e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_sf_bias_En    = 4.1029           +/- 0.3963       (9.659%)
+b_sf_bias_En    = 0.0149901        +/- 0.006673     (44.52%)
+
+correlation matrix of the fit parameters:
+                a_sf_b b_sf_b 
+a_sf_bias_En    1.000 
+b_sf_bias_En   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/hi_obc.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hi_obc_Ec(x)
+	f_hi_obc_Ec(x)  = a_hi_obc_Ec * x + b_hi_obc_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hi_obc_Ec   b_hi_obc_Ec  
+   0 5.5538461538e-09   0.00e+00  2.54e-02    2.128486e+00  -3.109538e-03
+   1 5.5538461538e-09   0.00e+00  2.54e-02    2.128486e+00  -3.109538e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.55385e-09
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.45241e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.55385e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hi_obc_Ec     = 2.12849          +/- 0.006076     (0.2854%)
+b_hi_obc_Ec     = -0.00310954      +/- 0.0001023    (3.29%)
+
+correlation matrix of the fit parameters:
+                a_hi_o b_hi_o 
+a_hi_obc_Ec     1.000 
+b_hi_obc_Ec    -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/hsf_obc.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hsf_obc_Ec(x)
+	f_hsf_obc_Ec(x) = a_hsf_obc_Ec * x + b_hsf_obc_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hsf_obc_Ec  b_hsf_obc_Ec 
+   0 5.2290615385e-08   0.00e+00  2.57e-02    2.156142e+00   1.613615e-03
+   1 5.2290615385e-08  -6.07e-10  2.57e-03    2.156142e+00   1.613615e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.22906e-08
+rel. change during last iteration : -6.07446e-15
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000228671
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.22906e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hsf_obc_Ec    = 2.15614          +/- 0.01864      (0.8646%)
+b_hsf_obc_Ec    = 0.00161362       +/- 0.0003139    (19.45%)
+
+correlation matrix of the fit parameters:
+                a_hsf_ b_hsf_ 
+a_hsf_obc_Ec    1.000 
+b_hsf_obc_Ec   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/sf_obc.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_sf_obc_Ec(x)
+	f_sf_obc_Ec(x)  = a_sf_obc_Ec * x + b_sf_obc_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_sf_obc_Ec   b_sf_obc_Ec  
+   0 2.5680984615e-07   0.00e+00  2.65e-02    2.224486e+00   2.215462e-03
+   1 2.5680984615e-07   0.00e+00  2.65e-02    2.224486e+00   2.215462e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.5681e-07
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000506764
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.5681e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_sf_obc_Ec     = 2.22449          +/- 0.04131      (1.857%)
+b_sf_obc_Ec     = 0.00221546       +/- 0.0006957    (31.4%)
+
+correlation matrix of the fit parameters:
+                a_sf_o b_sf_o 
+a_sf_obc_Ec     1.000 
+b_sf_obc_Ec    -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/hi_bias.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hi_bias_Ec(x)
+	f_hi_bias_Ec(x)  = a_hi_bias_Ec * x + b_hi_bias_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hi_bias_Ec  b_hi_bias_Ec 
+   0 4.3044323462e-06   0.00e+00  3.24e-02    2.417566e+00   2.106496e-02
+   1 4.3044323462e-06  -1.38e-10  3.24e-03    2.417566e+00   2.106496e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.30443e-06
+rel. change during last iteration : -1.37747e-15
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00207471
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.30443e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hi_bias_Ec    = 2.41757          +/- 0.1691       (6.996%)
+b_hi_bias_Ec    = 0.021065         +/- 0.002848     (13.52%)
+
+correlation matrix of the fit parameters:
+                a_hi_b b_hi_b 
+a_hi_bias_Ec    1.000 
+b_hi_bias_Ec   -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/hsf_bias.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_hsf_bias_Ec(x)
+	f_hsf_bias_Ec(x) = a_hsf_bias_Ec * x + b_hsf_bias_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_hsf_bias_Ec b_hsf_bias_Ec
+   0 3.7642865000e-06   0.00e+00  2.84e-02    2.367240e+00   4.918500e-03
+   1 3.7642865000e-06  -3.49e-10  2.84e-03    2.367240e+00   4.918500e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 3.76429e-06
+rel. change during last iteration : -3.48778e-15
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00194018
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.76429e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_hsf_bias_Ec   = 2.36724          +/- 0.1582       (6.682%)
+b_hsf_bias_Ec   = 0.0049185        +/- 0.002663     (54.15%)
+
+correlation matrix of the fit parameters:
+                a_hsf_ b_hsf_ 
+a_hsf_bias_Ec   1.000 
+b_hsf_bias_Ec  -0.907  1.000 
+
+
+*******************************************************************************
+Mon May 12 18:02:39 2025
+
+
+FIT:    data read from 'data/sf_bias.txt' u (1.0/($1)):3
+        format = x:z
+        x range restricted to [0.00000 : 0.0300000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f_sf_bias_Ec(x)
+	f_sf_bias_Ec(x)  = a_sf_bias_Ec * x + b_sf_bias_Ec
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a_sf_bias_Ec  b_sf_bias_Ec 
+   0 6.7830153846e-08   0.00e+00  3.01e-02    2.527311e+00  -2.291692e-03
+   1 6.7830153846e-08   0.00e+00  3.01e-03    2.527311e+00  -2.291692e-03
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 6.78302e-08
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000260442
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.78302e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a_sf_bias_Ec    = 2.52731          +/- 0.02123      (0.8401%)
+b_sf_bias_Ec    = -0.00229169      +/- 0.0003575    (15.6%)
+
+correlation matrix of the fit parameters:
+                a_sf_b b_sf_b 
+a_sf_bias_Ec    1.000 
+b_sf_bias_Ec   -0.907  1.000 
